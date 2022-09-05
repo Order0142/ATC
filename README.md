@@ -1,5 +1,5 @@
 # ATC
 Africa Trainovating Consulting
 git add .
-git commit -m Update
+git commit -m update
 git push
