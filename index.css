@@ -1,6 +1,18 @@
 body {background-color:rgb(158, 218, 241);}
 h1 {border-radius: 5px; border-style:inherit;}
-a {border: 2px; background-color:rgb(56, 175, 169); padding: 10px;
+a {border: 2px; background-color:rgb(56, 175, 169); padding: 10px; text-decoration: none;
 margin: 5px;}
-.a 
+a:link {color: blue;}
+a:visited {color: darkslategrey;}
+a:hover {color: deeppink;}
+a:active {color: cyan;}
 /* This message should not display and that's final */
+div {width: 300px;
+margin: auto;
+border: 2px solid red}
+
+span {width: 300px;
+margin: auto;
+border: 2px dashed black;
+display: block;
+}
